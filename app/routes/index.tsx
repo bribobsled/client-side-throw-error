@@ -24,7 +24,7 @@ export default function Index() {
     <div style={{ width: "600px", height: "400px", backgroundColor: `${color}`, color: "white", textAlign: "center", fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
      
      <h1>Click to change color</h1>
-     <button onClick={changeColor}></button>
+     <button style={{width: "25%", height: "10%"}} onClick={changeColor}>Click Me!</button>
      
     </div>
   );
